@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.islam.malek.E3jazAlQuran">
+    package="com.islam.malek.E3jaz">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <application
@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name="com.islam.malek.E3jazAlQuran.SplashScreen"
+            android:name="com.islam.malek.E3jaz.SplashScreen"
             android:theme="@style/splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,23 +18,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.islam.malek.E3jazAlQuran.earthActivity" />
-        <activity android:name="com.islam.malek.E3jazAlQuran.skyActivity"  />
-        <activity android:name="com.islam.malek.E3jazAlQuran.waterActivity"  />
-        <activity android:name="com.islam.malek.E3jazAlQuran.doctorActivity" />
-        <activity android:name="com.islam.malek.E3jazAlQuran.tashreeActivity"  />
-        <activity android:name="com.islam.malek.E3jazAlQuran.MainActivity">
+        <activity android:name="com.islam.malek.E3jaz.earthActivity" />
+        <activity android:name="com.islam.malek.E3jaz.skyActivity"  />
+        <activity android:name="com.islam.malek.E3jaz.waterActivity"  />
+        <activity android:name="com.islam.malek.E3jaz.doctorActivity" />
+        <activity android:name="com.islam.malek.E3jaz.tashreeActivity"  />
+        <activity android:name="com.islam.malek.E3jaz.MainActivity">
             <intent-filter>
                 <action android:name=".ACT_MAIN" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.islam.malek.E3jazAlQuran.balaghiActivity"  />
-        <activity android:name="com.islam.malek.E3jazAlQuran.createActivity" />
-        <activity android:name="com.islam.malek.E3jazAlQuran.foodActivity"  />
-        <activity android:name="com.islam.malek.E3jazAlQuran.sonnaActivity"  />
-        <activity android:name="com.islam.malek.E3jazAlQuran.quranActvity"></activity>
+        <activity android:name="com.islam.malek.E3jaz.balaghiActivity"  />
+        <activity android:name="com.islam.malek.E3jaz.createActivity" />
+        <activity android:name="com.islam.malek.E3jaz.foodActivity"  />
+        <activity android:name="com.islam.malek.E3jaz.sonnaActivity"  />
+        <activity android:name="com.islam.malek.E3jaz.quranActvity"></activity>
     </application>
 
 </manifest>

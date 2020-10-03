@@ -6,21 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background_html"
-    tools:context="com.islam.malek.E3jazAlQuran.earthActivity">
+    tools:context="com.islam.malek.E3jaz.earthActivity">
     <WebView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:id="@+id/webearth"
-        android:layout_above="@+id/adView"></WebView>
+        ></WebView>
 
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-6570381802681746/2339553311"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true">
-    </com.google.android.gms.ads.AdView>
+
 
 </RelativeLayout>

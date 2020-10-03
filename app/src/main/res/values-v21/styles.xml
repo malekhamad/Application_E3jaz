@@ -14,7 +14,7 @@
 
     </style>
     <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
-        <item name="android:background">#2c645b</item>
+        <item name="android:background">#ffffff</item>
     </style>
     <style name="splash" parent="android:Theme.Material.Light.NoActionBar.Overscan">
         <item name="android:windowIsTranslucent">true</item>

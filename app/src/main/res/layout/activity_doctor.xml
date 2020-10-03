@@ -5,19 +5,11 @@
     android:id="@+id/activity_doctor"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.islam.malek.E3jazAlQuran.doctorActivity">
+    tools:context="com.islam.malek.E3jaz.doctorActivity">
 <WebView
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/webdoctor"
-    android:layout_above="@+id/adView"></WebView>
-    <com.google.android.gms.ads.AdView
-        android:id="@+id/adView"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
-        ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-6570381802681746/2339553311">
-    </com.google.android.gms.ads.AdView>
+    ></WebView>
+
 </RelativeLayout>
